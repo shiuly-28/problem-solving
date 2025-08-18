@@ -65,47 +65,47 @@ function sumArray(arr) {
 
 // console.log(sumArray([1, 2, 3, 4]));
 
-// Problem 7: Find Even Numbers in an Array
-// function findEvenNumber(arr) {
-//     let evens = [];
-//     for (let num of arr) {
-//         if (num % 2 === 0) evens.push(num);
-//     }
-//     return evens;
-// }
+// Problem 7: Remove Duplicates from an Array
+function findEvenNumber(arr) {
+    let evens = [];
+    for (let num of arr) {
+        if (num % 2 === 0) evens.push(num);
+    }
+    return evens;
+}
 // console.log(findEvenNumber([1, 2, 3, 4, 5, 6]));
 
 // Problem 8: Capitalize First Letter of Each Word
-// function CapitalizeWords(str) {
-//     return str
-//         .split(" ")
-//         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-//         .join("");
-// }
+function CapitalizeWords(str) {
+    return str
+        .split(" ")
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join("");
+}
 // console.log(CapitalizeWords("hello word"));
 
 // Problem 9: Find the Factorial of a Number
-// function factorial(n) {
-//     let result = 1;
-//     for (let i = 2; i <= n; i++) {
+function factorial(n) {
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
 
-//     }
-//     return result;
-// }
+    }
+    return result;
+}
 // console.log(factorial([5]));
 
 // Problem 10: PingPong Challenge
-// function PingPong() {
-//     for (let i = 1; i <= 20; i++) {
-//         if (i % 3 === 0 && i % 5 === 0) {
-//             console.log("PingPong");
-//         } else if (i % 3 === 0) {
-//             console.log("Ping");
-//         } else if (i % 5 === 0) {
-//             console.log("Pong");
-//         } else {
-//             console.log(i);
-//         }
-//     }
-// }
-// PingPong();
+function PingPong() {
+    for (let i = 1; i <= 20; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("PingPong");
+        } else if (i % 3 === 0) {
+            console.log("Ping");
+        } else if (i % 5 === 0) {
+            console.log("Pong");
+        } else {
+            console.log(i);
+        }
+    }
+}
+PingPong();
