@@ -43,15 +43,15 @@ function findMax(arr) {
 
 // Problem 5: Remove Duplicates from an Array
 
-// function removeDuplicates(arr) {
-//     let unique = [];
-//     for (let num of arr) {
-//         if (!unique.includes(num)) {
-//             unique.push(num);
-//         }
-//     }
-//     return unique;
-// }
+function removeDuplicates(arr) {
+    let unique = [];
+    for (let num of arr) {
+        if (!unique.includes(num)) {
+            unique.push(num);
+        }
+    }
+    return unique;
+}
 // console.log(removeDuplicates([1, 2, 3, 4, 4]));
 
 // Problem 6: Sum of All Numbers in an Array
